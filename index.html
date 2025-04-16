@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lights Out</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Lights Out</h1>
+
+        <h2>Turn all the lights red!</h2>
+
+        <h3>Select a Grid Size and a Rule.</h3>
+        
+        <div class="controls">
+            <div class="control-group">
+                <label for="grid-size">Grid Size:</label>
+                <input type="range" id="grid-size" min="1" max="13" value="5" step="1">
+                <span id="size-value">5×5</span>
+            </div>
+            
+            <div class="control-group">
+                <label for="game-variant">Game Variant:</label>
+                <select id="game-variant">
+                    <option value="row-col">Same Row & Column</option>
+                    <option value="adjacent">Adjacent</option>
+                    <option value="diagonal">Diagonals</option>
+                </select>
+            </div>
+        </div>
+        
+        <div class="stats">
+            <strong><p>Moves: <span id="move-count">0</span></p></strong>
+            <p id="game-instructions">Instructions to click the cells and which rule.</p>
+        </div>
+        
+        <div id="board" class="board"></div>
+    </div>
+    
+    <div class="game-over" id="game-over-screen">
+        <div class="game-over-content">
+            <h2 id="result-text">Congratulations!</h2>
+            <p id="result-details">You solved the puzzle in X moves.</p>
+            <button id="play-again" class="button">Play Again</button>
+        </div>
+    </div>
+
+    <script src="src/game.js"></script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+{
+  "name": "lights_out",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RaymondTana/Lights_Out.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RaymondTana/Lights_Out/issues"
+  },
+  "homepage": "https://github.com/RaymondTana/Lights_Out#readme",
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}
