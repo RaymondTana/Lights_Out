@@ -12,11 +12,6 @@ Implemented in TypeScript with strict mode enabled. The project utilizes static 
 
 ## Video
 
-Watch the teaser video I made for Lights Out in [Manim](https://github.com/RaymondTana/manim_videos).
+Watch the teaser video I made for Lights Out in [Manim]().
 
-<iframe width="560" height="315" 
-    src="https://www.youtube.com/embed/hg7bFiNvHS0?si=qwPpczpLm0vNYWDL" 
-    title="YouTube video player" frameborder="0" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-    allowfullscreen>
-</iframe>
+[![Watch the video](https://img.youtube.com/vi/hg7bFiNvHS0/maxresdefault.jpg)](https://www.youtube.com/embed/hg7bFiNvHS0?si=qwPpczpLm0vNYWDL)
